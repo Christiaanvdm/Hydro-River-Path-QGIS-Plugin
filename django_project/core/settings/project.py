@@ -14,7 +14,7 @@ from .contrib import *  # noqa
 # Project apps
 INSTALLED_APPS += (
     'base',
-    'ford3',
+    'hydro',
 )
 
 # Due to profile page does not available,
