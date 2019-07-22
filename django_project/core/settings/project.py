@@ -49,7 +49,7 @@ MIDDLEWARE_CLASSES = (
 PIPELINE['JAVASCRIPT']['project'] = {
     'source_filenames': (
         'js/csrf-ajax.js',
-        'js/ford3.js',
+        'js/hydro.js',
     ),
     'output_filename': 'js/project.js',
 }
@@ -58,7 +58,7 @@ PIPELINE['JAVASCRIPT']['project'] = {
 # For third party libs like bootstrap should go in contrib.py
 PIPELINE['STYLESHEETS']['project']  = {
     'source_filenames': (
-        'css/ford3.css',
+        'css/hydro.css',
         'css/form.css',
     ),
     'output_filename': 'css/project.css',
